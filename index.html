@@ -8,8 +8,7 @@
 	<head>
 		<title>Elaine Schaertl Short</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -19,76 +18,73 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#work">Research</a></li>
+					<li><a href="#top">Home</a></li>
+					<li><a href="research.html#top">Research</a></li>
 					<li><a href="#bio">Bio</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
-			<div class="wrapper style1 first">
-				<article class="container" id="top">
+			<article id="top" class="wrapper style1">
+				<div class="container">
 					<div class="row">
-						<div class="4u 12u(mobile)">
+						<div class="col-4 col-5-large col-12-medium">
 							<span class="image fit"><img src="images/headshot.jpg" alt="Photograph of Elaine Schaertl Short" /></span>
 						</div>
-						<div class="8u 12u(mobile)">
+						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Elaine Schaertl Short</h1>
+								<br><br><br><br><h1>Elaine Schaertl Short</h1>
 							</header>
 							<p>Postdoctoral Fellow<br><a href="http://sim.ece.utexas.edu">Socially Intelligent Machines (SIM) Lab</a><br>Department of Electrical and Computer Engineering<br>University of Texas at Austin</p>
 							<!--<a href="#work" class="button big scrolly">Learn about what I do</a>-->
 						</div>
 					</div>
-				</article>
-			</div>
+				</div>
+			</article>
 
 		<!-- Work -->
-			<div class="wrapper style2">
-				<article id="work">
+		<article id="work" class="wrapper style3">
+				<div class="container">
 					<header>
 						<h2>Research Interests</h2>
-						<p>My research goal is to develop algorithms and models that enable social robots to appropriately serve human needs in open-ended real-world environments.</p>
+						<p>My work aims to create robots that people <i>want</i> to have around, not because they perfectly imitate human behavior, but because they seamlessly blend into the background while making people's lives easier.  These robots will be capable of improving the lives of many people, but will be a life-changing benefit for people with disabilities for whom human assistance comes at a significant cost to privacy and autonomy</p><br><br>
+						<p><a href="https://scholar.google.com/citations?user=J1awhoMAAAAJ&hl=en" class="button big scrolly">Google Scholar Page</a></p>
 					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="image fit"><img src="images/IMG_2545.JPG" alt="Photograph of Elaine with Poli, a tall, grey, friendly-looking robot" />
-									<h3>Mobile Service Robots</h3>
-									<p>This work develops algorithms and models that enable a mobile service robot to integrate into the social environment of a building and serve as a productive and valued member of the building community.</p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="image fit"><img src="images/IMG_2547.JPG" alt="Photograph of Elaine pretending to be a robot in a group of robots" />
-									<h3>Robots in Groups</h3>
-									<p>This research focuses on understanding how robots can model and participate in multi-party interactions, especially with heterogenous groups (such as families) in open-ended interactions.</p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="image fit"><img src="images/IMG_2546.JPG" alt="Photograph of Elaine holding a small grey and white robot." />
-									<h3>Robots for Kids</h3>
-									<p>This research develops algorithms and models that address the unique needs of children in human-robot interactions.</p>
-								</section>
-							</div>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="research.html#time" class="image featured"><img src="images/moe.jpeg"/></a>
+									<h3>Integrating Task and Social Behavior in Time</h3>
+									<p>Social interaction increases the importance of timing, since small changes can have social meaning (e.g., synchronization both results from and reinforces rapport). A core algorithmic challenge I address in my work is how to integrate socially appropriate behavior into temporal models for planning and control algorithms.</p>
+								</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="research.html#groups" class="image featured"><img src="images/interaction_deid.jpg" /></a>
+									<h3>Efficient Interaction with Groups and Crowds</h3>
+									<p>My work allows robots to influence, understand, and learn from people in groups, while making minimal assumptions about the specifics of their behavior. My goal is to enable robots to appropriately interact with and learn from people in public spaces, with learning algorithms that appropriately integrate information from diverse users and control algorithms that appropriately respond to human behavior in noisy environments.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="research.html#agency" class="image featured"><img src="images/chili.jpeg"/></a>
+									<h3>Understanding Robot Agency</h3>
+									<p> Agency is the degree to which something or someone can be considered to have free will and autonomy. A robot's appearance of agency depends on both its behavior and the specific person with whom it is interacting. My work in this area contributed to our understanding of how a robot can predict and influence people's perceptions of its agency. </p>
+							</article>
 						</div>
 					</div>
 					<footer>
-						<!--<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>-->
-						<a href="https://scholar.google.com/citations?user=J1awhoMAAAAJ&hl=en" class="button big scrolly">Click here for an up-to-date list of publications</a>
 					</footer>
-				</article>
 			</div>
+	</article>
 
 		<!-- Portfolio -->
 			<div class="wrapper style3">
 				<article id="bio">
 					<header>
 						<h2>Bio</h2>
-						<p>Elaine Short completed her PhD under the supervision of Prof. Maja Matarić in the Department of Computer Science at the University of Southern California (USC) in 2017.  She received her MS in Computer Science from USC in 2012 and her BS in Computer Science from Yale University in 2010.   Elaine is a recipient of a National Science Foundation Graduate Research Fellowship, USC Provost’s Fellowship, and a Google Anita Borg Scholarship.  At USC, she has been recognized for excellence in research, teaching, and service: she was awarded the Viterbi School of Engineering Merit Award, the Women in Science and Engineering (WiSE) Merit Award for Current Doctoral Students, the Best Research Assistant Award, Best Teaching Assistant Award, and Service Award from the Department of Computer Science, the Viterbi School of Engineering Undergraduate Research Mentoring Award, and was recognized with the Order of Aret&eacute, a university-wide award given to graduates who show excellence in leadership, scholarship, and service during their time at USC.  At Yale she was the recipient of the Saybrook College Mary Casner Prize.  Her research focuses on the use of social robots to serve the needs of human users in open-ended, real-world interactions, especially groups of people and individuals with disabilities.</p>
+						<p>Elaine Schaertl Short is a Postdoctoral Fellow in the Socially Intelligent Machines Lab at the University of Texas at Austin.  She completed her PhD under the supervision of Prof. Maja Matarić in the Department of Computer Science at the University of Southern California (USC).  She received her MS in Computer Science from USC in 2012 and her BS in Computer Science from Yale University in 2010.   Elaine is a recipient of a National Science Foundation Graduate Research Fellowship, USC Provost’s Fellowship, and a Google Anita Borg Scholarship.  At USC, she has been recognized for excellence in research, teaching, and service: she was awarded the Viterbi School of Engineering Merit Award and the Women in Science and Engineering (WiSE) Merit Award for Current Doctoral Students, as well as the Best Research Assistant Award, Best Teaching Assistant Award, and Service Award from the Department of Computer Science.  At Yale she was the recipient of the Saybrook College Mary Casner Prize.  Her research focuses on building algorithms that enable fast, efficient assistive human-robot interaction in schools, homes, crowds and other natural environments.</p>
 					</header>
 					<!--<div class="container">
 						<div class="row">
